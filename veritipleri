@@ -1,0 +1,52 @@
+// Tam Sayılar
+byte sayi1 = 255;        // 0 ile 255 arası
+short sayi2 = 32000;     // -32,768 ile 32,767 arası
+int sayi3 = 2147483647;  // -2.1 milyar ile 2.1 milyar arası
+long sayi4 = 9223372036854775807; // Çok büyük tam sayılar için
+
+// Ondalıklı Sayılar
+float ondalik1 = 3.14f;  // 7 basamak hassasiyet
+double ondalik2 = 3.14159265359; // 15-16 basamak hassasiyet
+decimal para = 1234.56m; // 28-29 basamak hassasiyet (finansal işlemler için)
+
+// Karakterler ve Metinler
+char karakter = 'A';     // Tek karakter
+string metin = "Merhaba Dünya"; // Metin
+
+// Mantıksal
+bool dogruMu = true;     // true veya false değeri alır
+
+// 1. Implicit (Otomatik) Dönüşüm
+int sayi = 100;
+long buyukSayi = sayi;  // int -> long (güvenli dönüşüm)
+float ondalikli = sayi; // int -> float (güvenli dönüşüm)
+
+// 2. Explicit (Cast ile) Dönüşüm
+double numara = 123.45;
+int tamSayi = (int)numara;  // 123 olur (ondalık kısmı atılır)
+
+// 3. Convert Sınıfı ile Dönüşüm
+string sayiMetni = "123";
+int donusturulenSayi = Convert.ToInt32(sayiMetni);  // string -> int
+double donusturulenOndalik = Convert.ToDouble("123.45");  // string -> double
+
+// 4. Parse Metodu ile Dönüşüm
+string metin1 = "456";
+int parse1 = int.Parse(metin1);  // string -> int
+double parse2 = double.Parse("789.12");  // string -> double
+
+// 5. ToString() ile Stringe Dönüşüm
+int numara2 = 789;
+string metinHali = numara2.ToString();  // int -> string
+
+// 6. TryParse ile Güvenli Dönüşüm
+string metin2 = "123";
+int sonuc;
+if (int.TryParse(metin2, out sonuc))
+{
+    Console.WriteLine($"Dönüşüm başarılı: {sonuc}");
+}
+else
+{
+    Console.WriteLine("Dönüşüm başarısız!");
+}

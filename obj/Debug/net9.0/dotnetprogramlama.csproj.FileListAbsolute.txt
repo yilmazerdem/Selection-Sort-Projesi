@@ -1,0 +1,14 @@
+D:\PROJELER\dotnetprogramlama\bin\Debug\net9.0\dotnetprogramlama.exe
+D:\PROJELER\dotnetprogramlama\bin\Debug\net9.0\dotnetprogramlama.deps.json
+D:\PROJELER\dotnetprogramlama\bin\Debug\net9.0\dotnetprogramlama.runtimeconfig.json
+D:\PROJELER\dotnetprogramlama\bin\Debug\net9.0\dotnetprogramlama.dll
+D:\PROJELER\dotnetprogramlama\bin\Debug\net9.0\dotnetprogramlama.pdb
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.AssemblyInfoInputs.cache
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.AssemblyInfo.cs
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.csproj.CoreCompileInputs.cache
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.dll
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\refint\dotnetprogramlama.dll
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.pdb
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\dotnetprogramlama.genruntimeconfig.cache
+D:\PROJELER\dotnetprogramlama\obj\Debug\net9.0\ref\dotnetprogramlama.dll
