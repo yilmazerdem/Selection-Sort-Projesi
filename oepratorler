@@ -1,0 +1,72 @@
+// Temel atama operatörü (=)
+int sayi = 10;
+
+// İşlemli atama operatörleri
+sayi += 5;      // sayi = sayi + 5; (sonuç: 15)
+sayi -= 3;      // sayi = sayi - 3; (sonuç: 12)
+sayi *= 2;      // sayi = sayi * 2; (sonuç: 24)
+sayi /= 4;      // sayi = sayi / 4; (sonuç: 6)
+
+string metin = "Merhaba";
+metin += " Dünya";  // metin = metin + " Dünya"; (sonuç: "Merhaba Dünya")
+
+bool kosul1 = true;
+bool kosul2 = false;
+
+// VE operatörü (&&)
+bool sonuc1 = kosul1 && kosul2;  // false (iki koşul da true olmalı)
+
+// VEYA operatörü (||)
+bool sonuc2 = kosul1 || kosul2;  // true (en az bir koşul true olmalı)
+
+// DEĞİL operatörü (!)
+bool sonuc3 = !kosul1;  // false (true iken false yapar)
+
+// Örnek kullanım
+int yas = 25;
+bool ehliyet = true;
+bool arabaKullanabilir = (yas >= 18) && ehliyet;  // true
+
+int x = 10;
+int y = 20;
+
+bool esitMi = x == y;        // false (eşit mi?)
+bool esitDegilMi = x != y;   // true (eşit değil mi?)
+bool kucukMu = x < y;        // true (küçük mü?)
+bool buyukMu = x > y;        // false (büyük mü?)
+bool kucukEsitMi = x <= y;   // true (küçük veya eşit mi?)
+bool buyukEsitMi = x >= y;   // false (büyük veya eşit mi?)
+
+// Örnek kullanım
+string kullaniciAdi = "admin";
+string sifre = "12345";
+bool girisBasarili = (kullaniciAdi == "admin") && (sifre == "12345");  // true
+
+int a = 10;
+int b = 3;
+
+// Temel aritmetik operatörler
+int toplam = a + b;      // 13 (toplama)
+int fark = a - b;        // 7 (çıkarma)
+int carpim = a * b;      // 30 (çarpma)
+int bolum = a / b;       // 3 (tam sayı bölme)
+int kalan = a % b;       // 1 (mod alma)
+
+// Artırma ve azaltma operatörleri
+int sayi = 5;
+sayi++;      // sayi = sayi + 1; (sonradan artırma)
+++sayi;      // sayi = sayi + 1; (önceden artırma)
+sayi--;      // sayi = sayi - 1; (sonradan azaltma)
+--sayi;      // sayi = sayi - 1; (önceden azaltma)
+
+// Önceden ve sonradan artırma/azaltma farkı
+int i = 5;
+int j = 5;
+int sonuc1 = i++;    // sonuc1 = 5, i = 6
+int sonuc2 = ++j;    // sonuc2 = 6, j = 6
+
+// Karışık örnek
+double fiyat = 100;
+double indirimOrani = 0.2;  // %20
+double indirimMiktari = fiyat * indirimOrani;  // 20
+double sonFiyat = fiyat - indirimMiktari;      // 80
